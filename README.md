@@ -35,16 +35,16 @@ Based on the cluster group, the model is loaded and prediction is made.
 Clone the repository
 
 ```bash
-https://github.com/highfrezh/End-to-end-ML-Project-Implementation.git
+https://github.com/highfrezh/Wafer-Fault-Detection-ML-Project.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.8 -y
+conda create -n wafer python=3.6 -y
 ```
 
 ```bash
-conda activate mlproj
+conda activate wafer
 ```
 
 
@@ -56,3 +56,10 @@ pip install -r requirements.txt
 
 ```bash
 # Finally run the following command
+python main.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
