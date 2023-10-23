@@ -28,3 +28,31 @@ In this step we perform the following things
 ## Model Prediction
 Here also all the above steps like Data Validation, Data Insertion in Database, Data Preprocessing and Clustering is performed.
 Based on the cluster group, the model is loaded and prediction is made.
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/highfrezh/End-to-end-ML-Project-Implementation.git
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n mlproj python=3.8 -y
+```
+
+```bash
+conda activate mlproj
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
